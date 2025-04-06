@@ -72,3 +72,58 @@
 4. Загрузите файл в репозиторий с помощью jenkins.
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
+
+![Снимок экрана (760)](https://github.com/user-attachments/assets/f3958b2f-a43b-41e8-a329-f60ceaa50404)
+
+```
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/Dmitriy-py/my-first-git-repo.git', branch: 'main'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'go build -o myapp .'
+                sh 'chmod a+r myapp'
+                sh 'ls -l'
+            }
+        }
+        stage('Upload to Nexus') {
+            steps {
+                withCredentials([string(credentialsId: 'nexus-creds', variable: 'NEXUS_CREDENTIALS')]) {
+                    sh '''
+                        curl -v -u "\$NEXUS_CREDENTIALS" --upload-file myapp http://localhost:8081/repository/go-binaries/myapp
+                    '''
+                }
+            }
+        }
+    }
+    post {
+        success {
+            echo 'Pipeline completed successfully!'
+        }
+        failure {
+            echo 'Pipeline failed!'
+        }
+    }
+}
+
+```
+
+![Снимок экрана (761)](https://github.com/user-attachments/assets/a5c18ec2-e3d3-4767-86c3-c626b65121c0)
+
+![Снимок экрана (762)](https://github.com/user-attachments/assets/6c3fda5a-b034-4b24-9293-7cdcfd570ffd)
+
+![Снимок экрана (763)](https://github.com/user-attachments/assets/1604e1e7-f826-40d2-81ea-c50ef7491a06)
+
+![Снимок экрана (764)](https://github.com/user-attachments/assets/416841fa-4f3a-4a64-9371-e35bf9dd07a5)
+
+![Снимок экрана (759)](https://github.com/user-attachments/assets/c39b10a3-ac13-494f-b708-8cb5a9917914)
+
+
+
+
+
