@@ -48,11 +48,11 @@
 
 ![Снимок экрана (725)](https://github.com/user-attachments/assets/7dafe407-3a56-4a4e-9634-d75ca5870a26)
 
-![Снимок экрана (729)](https://github.com/user-attachments/assets/05a621d6-e66f-440e-9363-7d3afa893f7e)
-
-![Снимок экрана (730)](https://github.com/user-attachments/assets/d58cc0a2-553a-44d2-b5f2-15c376cb3946)
-
 ![Снимок экрана (731)](https://github.com/user-attachments/assets/49c42fd3-a99b-405f-a192-983fe01ef6aa)
+
+![Снимок экрана (738)](https://github.com/user-attachments/assets/ae8f97a4-bea5-47c3-b5cb-44fea8c8be40)
+
+![Снимок экрана (739)](https://github.com/user-attachments/assets/c6fe5c1c-898e-4716-b6b4-d26fe9b161cf)
 
 ![Снимок экрана (732)](https://github.com/user-attachments/assets/90d97db1-a1f1-4f64-ae6b-b7eb54d7c063)
 
