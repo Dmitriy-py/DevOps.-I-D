@@ -135,6 +135,12 @@ pipeline {
 
 ![Снимок экрана (759)](https://github.com/user-attachments/assets/c39b10a3-ac13-494f-b708-8cb5a9917914)
 
+![Снимок экрана (765)](https://github.com/user-attachments/assets/86e98fba-98be-4e5b-9fa9-f5dbce998228)
+
+
+
+
+
 
 
 
