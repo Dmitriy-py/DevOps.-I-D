@@ -35,6 +35,32 @@
 
 
 
+## Задание 2
+
+Что нужно сделать:
+
+Создайте новый проект pipeline.
+Перепишите сборку из задания 1 на declarative в виде кода.
+В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+
+
+![Снимок экрана (723)](https://github.com/user-attachments/assets/dd74b778-005a-481a-bf33-3732fb0a4400)
+
+![Снимок экрана (725)](https://github.com/user-attachments/assets/7dafe407-3a56-4a4e-9634-d75ca5870a26)
+
+![Снимок экрана (729)](https://github.com/user-attachments/assets/05a621d6-e66f-440e-9363-7d3afa893f7e)
+
+![Снимок экрана (730)](https://github.com/user-attachments/assets/d58cc0a2-553a-44d2-b5f2-15c376cb3946)
+
+![Снимок экрана (731)](https://github.com/user-attachments/assets/49c42fd3-a99b-405f-a192-983fe01ef6aa)
+
+![Снимок экрана (732)](https://github.com/user-attachments/assets/90d97db1-a1f1-4f64-ae6b-b7eb54d7c063)
+
+![Снимок экрана (733)](https://github.com/user-attachments/assets/b3f8f1c5-4611-4e0f-96dd-0fd6e6693d90)
+
+![Снимок экрана (736)](https://github.com/user-attachments/assets/f4413e27-f256-424b-879b-8db90b3d0dce)
+
+![Снимок экрана (737)](https://github.com/user-attachments/assets/04001f5e-b2ab-47b2-9446-859d0aeb278c)
 
 
 
